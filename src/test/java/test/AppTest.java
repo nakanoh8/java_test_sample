@@ -20,7 +20,6 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         // assertTrue( true );
-        
         assertEquals("Hello Mikkiii", new App().hello());
     }
 }
