@@ -64,7 +64,11 @@ public class App
         System.out.println( "Hello World!" );
     }
 
+    App2 app2;
+    public App(){
+        app2 = new App2();
+    } 
     public String hello(){        
-        return new App2().helloApp2();
+        return app2.helloApp2();
     }
 }
